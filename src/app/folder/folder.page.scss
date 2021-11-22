@@ -1,0 +1,32 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 40px;
+  line-height: 22px;
+  color: #bebebe;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content.background{
+  --background: url(../../assets/img/fondo.jpg) 0 0/100% 100% no-repeat;
+}
